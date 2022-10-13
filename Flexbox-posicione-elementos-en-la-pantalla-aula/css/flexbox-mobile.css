@@ -10,17 +10,66 @@
     flex-direction: column;
 }
 
+<<<<<<< HEAD
 /*Parte Cursos*/
 
 .contenidoPrincipal-cursos {
     flex-direction: column;
 }
 
+=======
+>>>>>>> d81e1649e18604327f9da96f3b2482b88706b6c0
 .contenidoPrincipal-cursos-link{
     width: 100%;
 }
 
+<<<<<<< HEAD
 /*Parte Video*/
 
 /*Parte Map*/
 /*Parte Foooter*/
+=======
+.videoSobre .container {
+    display: block; 
+    
+}
+
+.videoSobre-video {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.videoSobre-sobre {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+}
+
+.videoSobre-button{
+    margin-top: 2%;
+}
+
+.rodapePrincipal-navMap-list{
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    margin: auto;
+}
+
+
+.rodapePrincipal .container{
+    display: block;
+    justify-items: center;
+    margin: auto;
+}
+.rodapePrincipal-patrocinadores-list{
+    width: 100%;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-contatoForm-fieldset{
+    display: block;
+}
+>>>>>>> d81e1649e18604327f9da96f3b2482b88706b6c0
