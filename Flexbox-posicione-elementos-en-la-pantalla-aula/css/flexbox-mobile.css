@@ -1,9 +1,26 @@
-.headerPrincipal .container{
+/*Parte Header*/
+
+.headerPrincipal .container {
     flex-direction: column;
     align-items: initial;
     text-align: center;
 }
 
-.headerPrincipal-nav{
+.headerPrincipal-nav {
     flex-direction: column;
 }
+
+/*Parte Cursos*/
+
+.contenidoPrincipal-cursos {
+    flex-direction: column;
+}
+
+.contenidoPrincipal-cursos-link{
+    width: 100%;
+}
+
+/*Parte Video*/
+
+/*Parte Map*/
+/*Parte Foooter*/
