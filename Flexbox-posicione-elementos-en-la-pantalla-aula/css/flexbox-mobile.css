@@ -15,12 +15,16 @@
 
 /*Parte Cursos*/
 
-.contenidoPrincipal-cursos {
-    flex-direction: column;
+.container .subtitulo{
+align-items: center;
+
 }
 
 .contenidoPrincipal-cursos-link {
+
     width: 100%;
+    margin:auto;
+    margin-top: 1%;
 }
 
 .videoSobre .container {
@@ -81,17 +85,27 @@
 .rodapePrincipal .container {
     display: block;
     justify-items: center;
-    margin: auto;
+    /* margin: auto; */
 }
 .rodapePrincipal-patrocinadores-list {
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+.rodapePrincipal-patrocinadores-list-link{
+    width: 30%;
 }
 
-.rodapePrincipal-contatoForm-fieldset {
+.rodapePrincipal-contatoForm-emailInput{
+    display: block;
+    width: 100%;
+}
+
+.rodapePrincipal-contatoForm-submit {
     display: block;
 
 }
+
 
 .rodapePrincipal-contatoForm-emailInput {
   padding: 5% 45% 5% 45%;
