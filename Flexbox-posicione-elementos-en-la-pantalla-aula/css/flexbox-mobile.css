@@ -34,15 +34,21 @@
   margin: auto;
 }
 
-.videoSobre-sobre {
+.videoSobre .container {
   display: flex;
   align-items: center;
   margin: auto;
   flex-direction: column;
 }
 
-.videoSobre-button {
+.videoSobre-sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+}
 
+.videoSobre-button {
   margin-top: 2%;
 }
 
@@ -51,12 +57,7 @@
   flex-direction: column;
   display: flex;
   margin: auto;
-}
 
-.rodapePrincipal .container {
-  display: block;
-  justify-items: center;
-  margin: auto;
 }
 .rodapePrincipal-patrocinadores-list {
   width: 100%;
@@ -67,15 +68,8 @@
   align-items: center;
   display: inline-block;
   justify-content: center;
-
+  display: block;
     margin-top: 2%;
-}
-
-.rodapePrincipal-navMap-list {
-    height: auto;
-    flex-direction: column;
-    display: flex;
-    margin: auto;
 }
 
 .rodapePrincipal .container {
@@ -83,25 +77,23 @@
     justify-items: center;
     margin: auto;
 }
-.rodapePrincipal-patrocinadores-list {
-    width: 100%;
-    justify-content: space-between;
-}
-
-.rodapePrincipal-contatoForm-fieldset {
-    display: block;
-
-}
 
 .rodapePrincipal-contatoForm-emailInput {
-  padding: 5% 45% 5% 45%;
+  padding: 5% 40% 5% 40%;
   width: 100%;
   margin: auto;
 }
 
 .rodapePrincipal-contatoForm-submit {
   margin-top: 3%;
-  padding: 5% 40% 5% 40%;
+  padding: 5% 35% 5% 35%;
   border: 2px;
 }
+
+.headerPrincipal-nav-link-app{
+    order:-1;
+}
+
+
+
 }
